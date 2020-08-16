@@ -24,18 +24,13 @@ public class Test2 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-               Boss firstboss = new Boss();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
-              firstboss. Magic ();
+              Boss firstboss = new Boss();
+               for (int i = 0;i < 11;i++)
+               {
+                    firstboss.Magic ();
+               }
+
+              
       	}
 	
 	// Update is called once per frame
@@ -43,3 +38,4 @@ public class Test2 : MonoBehaviour {
 		
 	}
 }
+ 
